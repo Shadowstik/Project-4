@@ -284,7 +284,8 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 45px;
+    font-weight: 700;
 }
 
 .navbar {
@@ -325,7 +326,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -654,6 +655,10 @@ a {
     color: #575757!important;
 }
 
+h2{
+    font-weight: 700;
+}
+
 .container {
     max-width: 1000px;
 }
@@ -677,7 +682,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -695,7 +700,7 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -716,9 +721,28 @@ h3 {
     color: #333333!important;
 }
 
+blockquote > p {
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+blockquote > footer {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.strong {
+    font-size: 20px;
+}
+
+.t-white {
+    color:#FFF!important;
+}
+
 .med-width-whitespace {
-    max-width: 800px;
-    margin: auto auto auto auto;
+    max-width: 900px;
+    margin: auto;
     box-shadow: 0px 0px 0px #000000;
 }
 
@@ -775,11 +799,11 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #000!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #E76F51;
     color: #FFFFFF!important;
 }
 
@@ -807,14 +831,6 @@ h4 {
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
-}
-
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
-.bg-lines-h2-bg {
-    
 }
 
 .bg-banniere {
