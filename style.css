@@ -37,7 +37,7 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+    padding: 30px 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -159,7 +159,8 @@ a:hover {
 .d-bloc h4 a:hover,
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
-.d-bloc p a:hover {
+.d-bloc p a:hover,
+.d-bloc li a:hover {
     color: #FFF;
 }
 
@@ -241,7 +242,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: #000;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -285,10 +286,6 @@ a:hover {
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
-}
-
-.row-gutters {
-    margin: 0 auto;
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -666,7 +663,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #000!important;
+    color: #000;
 }
 
 h2{
@@ -678,11 +675,12 @@ h2{
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 58px;
+    font-weight: 700;
 }
 
 .hero-bloc-text-sub {
-    font-size: 36px;
+    font-size: 46px;
 }
 
 .statement-bloc-text {
@@ -752,12 +750,13 @@ blockquote > footer {
 }
 
 .large {
-    font-size: 25px;
+    font-size: 38px;
     font-weight: 700;
 }
 
 .t-good{
     padding: 0 50px;
+    margin-bottom: 40px;
 }
 
 .med-width-whitespace {
@@ -767,11 +766,27 @@ blockquote > footer {
 }
 
 h1 {
-    color: #333333!important;
+    color: #000!important;
 }
 
 h4 {
-    color: #333333!important;
+    color: #000!important;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.form-mg {
+    padding-right: 40px;
+}
+
+.contact {
+    padding: 30px 0;
+}
+
+.contact-f{
+    font-size: 25px;
+    text-decoration: underline;
+    margin-bottom: 40px;
 }
 
 .icons {
@@ -814,6 +829,10 @@ h4 {
     background-color: #E76F51;
 }
 
+.bgc-light-tangerine {
+    background-color: rgba(231, 111, 81, 0.5);
+}
+
 .tc-white {
     color: #FFF!important;
 }
@@ -823,7 +842,11 @@ h4 {
 }
 
 .copyr {
-    margin: 20px auto;
+    margin: 70px auto 0px;
+}
+
+.contact {
+    padding: 30px 0;
 }
 
 .btn-atomic-tangerine {
