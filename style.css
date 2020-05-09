@@ -13,6 +13,10 @@ body {
     height: 100%;
 }
 
+a {
+    text-decoration: underline;
+}
+
 a,
 button {
     transition: all .1s ease-in-out;
@@ -94,11 +98,6 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-}
-
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
 }
 
 .b-parallax {
@@ -788,9 +787,12 @@ h4 {
     padding: 30px 0;
 }
 
+.contact img {
+    transform: scale(0.8);
+}
+
 .contact-f{
     font-size: 25px;
-    text-decoration: underline;
     margin-bottom: 40px;
 }
 

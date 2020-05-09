@@ -88,14 +88,14 @@
 							method="POST" action="traitement.php">
 							<div class="form-group">
 								<label for="name">
-									<p>Nom</p>
+									<p>Nom*</p>
 								</label>
 								<input id="name" name="name" type="text" placeholder="Votre nom" class="form-control"
 									required />
 							</div>
 							<div class="form-group">
 								<label for="email">
-									<p>Adresse email</p>
+									<p>Adresse email*</p>
 								</label>
 								<input id="email" name="email" placeholder="Votre email" class="form-control"
 									type="email" required />
@@ -107,22 +107,23 @@
 									<input id="twitter" name="media" type="radio" value="twitter" /> <label for="twitter">Twitter</label><br>
 									<input id="instagram" name="media" type="radio" value="instagram" /> <label for="instagram">Instagram</label><br>
 									<input id="dribbble" name="media" type="radio" value="dribbble" /> <label for="dribbble">Dribbble</label><br>
-									<input id="other" name="media" type="radio" value="other" /> <label for="other">Par un autre moyen.</label>
+									<label for="other">Par un autre moyen.</label><input class="form-control" type="text" name="other" id="other" placeholder="Ex: Site, évènement, etc..." />
 								</p>
 							</div>
 							<div class="form-group">
 								<label for="message">
-									<p>Brief de votre projet (Ajoutez autant de détails que nécessaire).</p>
+									<p>Brief de votre projet (Ajoutez autant de détails que nécessaire).*</p>
 								</label>
 								<textarea id="message" name="message" type="text"
 									placeholder="Ex: création d'un site de vente de vélo, au couleurs du drapeau de Lyon, etc..."
 									class="form-control" rows="4" cols="50" required></textarea>
 							</div>
+							<p>* Remplir ces champs est obligatoire.</p>
 							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
 								type="submit">
 								Envoyez
 							</button>
-						</form>
+						</form><br>
 					</div>
 					<div class="col-sm-6 text-center bgc-light-tangerine contact">
 						<h3 class="contact-f">Contacts</h3>
@@ -131,7 +132,9 @@
 						<h4>Adresse</h4>
 						<p>2 place Sathonay 69001 Lyon</p><br>
 						<h4>Horaires</h4>
-						<p>Ouvert de 9h à 18h, du lundi au vendredi</p><br>
+						<p>Ouvert de 9h à 18h, du lundi au vendredi</p><br><br>
+						<p>La chouette agence vous accueillera avec plaisir autour d'un café.</p>
+						<img src="img/la-chouette-agence.png" alt="logo la chouette agence">
 					</div>
 				</div>
 			</div>
