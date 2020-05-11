@@ -880,9 +880,9 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
-    body {
-        padding-left: env(safe-area-inset-left, 20px);
-        padding-right:  env(safe-area-inset-right, 20px);
+    .bloc {
+        padding-left: env(safe-area-inset-left);
+        padding-right:  env(safe-area-inset-right);
     }
 }
 
