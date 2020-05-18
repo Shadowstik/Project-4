@@ -304,9 +304,9 @@ h3 {
 }
 
 
-.contact-t {
+p.contact-t {
     font-size: 20px;
-    font-weight: 700;
+    text-decoration: underline;
 }
 
 .container {
