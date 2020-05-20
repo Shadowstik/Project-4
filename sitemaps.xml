@@ -7,12 +7,6 @@
 		<priority>1.0</priority>
 	</url>
 	<url>
-		<loc>https://shadowstik.github.io/index.html</loc>
-		<lastmod>2020-05-05T02:47:17Z</lastmod>
-		<changefreq>daily</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
 		<loc>https://shadowstik.github.io/page2.html</loc>
 		<lastmod>2020-05-05T02:47:17Z</lastmod>
 		<changefreq>daily</changefreq>
